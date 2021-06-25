@@ -1,0 +1,344 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.cyanbutton {
+  background-color: #26baa4;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 40px;
+  height: 50px;
+  width: 300px;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 5px 15px #26baa4;
+          box-shadow: 0px 5px 15px #26baa4;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10%;
+}
+
+.bluebutton {
+  background-color: #6173ff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 40px;
+  height: 50px;
+  width: 300px;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 5px 15px #6173ff;
+          box-shadow: 0px 5px 15px #6173ff;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10%;
+}
+
+body {
+  padding: 0 5%;
+  text-align: center;
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+section {
+  margin-bottom: 40%;
+}
+
+p {
+  color: #9fabb2;
+  font-size: 0.9rem;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+.firstsection img {
+  width: 40%;
+  margin: 30% 0;
+}
+
+.firstsection h1 {
+  color: #4c545d;
+  margin-bottom: 5%;
+  font-size: 1.8rem;
+}
+
+.firstsection p {
+  margin-bottom: 15%;
+}
+
+.secondsection h2 {
+  color: #4c545d;
+  margin-bottom: 5%;
+  font-size: 1.7rem;
+}
+
+.secondsection p {
+  margin-bottom: 17%;
+}
+
+.secondsection img {
+  width: 90%;
+  margin-bottom: 15%;
+}
+
+.secondsection h3 {
+  color: #4c545d;
+  margin-bottom: 5%;
+  font-size: 1.3rem;
+}
+
+.thirdsection h2 {
+  color: #4c545d;
+  margin-top: 40%;
+  margin-bottom: 5%;
+  font-size: 1.7rem;
+}
+
+.thirdsection p {
+  margin-bottom: 17%;
+}
+
+.thirdsection .devices {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.thirdsection img {
+  width: 14%;
+  margin-bottom: 10%;
+}
+
+.thirdsection h3 {
+  color: #4c545d;
+  margin-bottom: 5%;
+  font-size: 1.3rem;
+}
+
+.thirdsection .companies {
+  width: 35%;
+}
+
+.fourthsection h2 {
+  color: #4c545d;
+  margin-top: 40%;
+  margin-bottom: 5%;
+  font-size: 1.6rem;
+}
+
+.fourthsection p {
+  margin-bottom: 10%;
+}
+
+footer {
+  background-color: #e4e9ec;
+  margin: -5%;
+}
+
+footer .footerlogo {
+  width: 14%;
+  margin: 10% 0;
+}
+
+footer p {
+  color: #4c545d;
+  margin: 3% 0;
+}
+
+footer .icons {
+  width: 6%;
+  margin: 10% 5% 5% 5%;
+}
+
+@media (min-width: 1000px) {
+  .attribution {
+    margin-top: 6%;
+  }
+  .cyanbutton {
+    margin: 1%;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    height: 70px;
+    width: 300px;
+    -webkit-box-shadow: 0px 5px 5px #26baa4;
+            box-shadow: 0px 5px 5px #26baa4;
+    cursor: pointer;
+    outline: none;
+  }
+  .bluebutton {
+    margin: 1%;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    height: 70px;
+    width: 300px;
+    -webkit-box-shadow: 0px 5px 5px #6173ff;
+            box-shadow: 0px 5px 5px #6173ff;
+    cursor: pointer;
+    outline: none;
+  }
+  body {
+    padding: 0 6%;
+    background-image: url("../images/bg-header-desktop.png");
+  }
+  section {
+    margin-bottom: 5%;
+  }
+  p {
+    color: #9fabb2;
+    font-size: 1.2rem;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+  }
+  .firstsection {
+    margin-bottom: 15%;
+  }
+  .firstsection img {
+    margin-top: 12%;
+    width: 10%;
+    margin-bottom: 4%;
+  }
+  .firstsection h1 {
+    color: #4c545d;
+    margin-bottom: 2%;
+    font-size: 2.8rem;
+  }
+  .firstsection p {
+    margin-bottom: 4%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .secondsection h2 {
+    margin-bottom: 2%;
+    font-size: 2.3rem;
+  }
+  .secondsection p {
+    margin-bottom: 9%;
+    width: 75%;
+    margin-left: 15%;
+  }
+  .secondsection .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+  }
+  .secondsection .content p {
+    margin-left: 0%;
+  }
+  .secondsection img {
+    width: 80%;
+    margin-left: -10%;
+    margin-right: 9%;
+    margin-bottom: 100px;
+  }
+  .secondsection h3 {
+    color: #4c545d;
+    margin-bottom: 1%;
+    font-size: 1.2rem;
+  }
+  .thirdsection h2 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 2.3rem;
+  }
+  .thirdsection p {
+    font-size: 1rem;
+    margin-bottom: 4%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .thirdsection .devices {
+    width: 85%;
+    margin-bottom: 0px;
+  }
+  .thirdsection .lists {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .thirdsection .lists p {
+    width: 95%;
+    margin: 0;
+  }
+  .thirdsection img {
+    width: 10%;
+    margin-bottom: 9%;
+  }
+  .thirdsection h3 {
+    color: #4c545d;
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+  }
+  .thirdsection .companieslists {
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .thirdsection .companieslists .companies {
+    width: 9%;
+  }
+  .fourthsection {
+    margin-bottom: 24%;
+  }
+  .fourthsection h2 {
+    margin-top: 4%;
+    margin-bottom: 1%;
+    font-size: 2.3rem;
+  }
+  .fourthsection p {
+    margin-bottom: 4%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  footer {
+    background-color: whitesmoke;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    margin: -10%;
+  }
+  footer .footerlogo {
+    width: 5%;
+    margin: 3%;
+  }
+  footer .footercontent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  footer p {
+    color: #4c545d;
+  }
+  footer .icons {
+    width: 19.5%;
+    margin: 5%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
